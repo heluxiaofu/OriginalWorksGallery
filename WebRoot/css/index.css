@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+
+#title{
+	width:auto;
+	height: 25px;
+}
+
+#flashshow{
+	width: auto;
+	height: 550px;
+	margin-top: 30px;
+}
+
+#navigator{
+}
+
+#footer{
+	width: auto;
+	height: 50px;
+}
+
+
+
+<!-- 导航条 -->
+
+body{
+	margin: 0,auto;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#nav_wrap {
+	width: 960px;
+}
+
+#nav {
+	background: url(../img/image/nav_bg2.gif) repeat-x bottom;
+	height: 49px;
+	position: relative;
+	width: 950px;
+	margin: 20px auto;
+}
+
+#nav .l {
+	background: url(../img/image/nav_l2.gif) no-repeat bottom;
+	height: 49px;
+	width: 28px;
+	float: left
+}
+
+#nav li {
+	float: left;
+	list-style: none;
+	text-align: center;
+	font-size: 14px;
+}
+
+#nav li .v a {
+	width: 108px;
+	height: 49px;
+	line-height: 49px;
+	display: block;
+	color: #FFF;
+	float: left;
+	font-family: Arial, Verdana, Tahoma, "宋体";
+}
+
+#nav li .v a:hover,#nav li .v .sele {
+	background: url(../img/image/nav_hover2.gif) no-repeat bottom;
+	color: #fff;
+	height: 49px;
+	line-height: 49px;
+	font-size: 14px;
+	padding-left: 0px;
+}
+
+#nav .kind_menu {
+	height: 30px;
+	*height: 29px;
+	line-height: 30px;
+	vertical-align: middle;
+	position: absolute;
+	top: 46px;
+	*top: 48px;
+	left: 70px;
+	width: 880px;
+	text-align: left;
+	display: none;
+	color: #000;
+	font-size: 12px;
+}
+
+#nav .kind_menu a {
+	color: #000;
+	float: left;
+	text-align: center;
+	width: 90px;
+	font-family: Arial, Verdana, Tahoma, "宋体";
+	font-size: 12px;
+}
+
+#nav .kind_menu a:hover {
+	color: #000;
+	border-bottom: 2px #a60000 solid;
+}
+
+#nav .kind_menu span {
+	font-size: 10px;
+	color: #000;
+	line-height: 30px;
+	*line-height: 26px;
+	float: left
+}
+
+<!-- 导航条 -->
+
+
+<!--动画切换 -->
+
+IMG {
+	BORDER: 0px;
+}
+
+#linkPush A {
+	padding-right: 5px;
+	display: block;
+	padding-left: 7px;
+	float: left;
+	padding-bottom: 0px;
+	color: #333;
+	padding-top: 6px;
+	height: 28px;
+	text-align: center;
+	text-decoration: none
+}
+
+#linkPush A:hover {
+	background: url(../img/flash/pushHere.gif) no-repeat;
+	width: 92px;
+	padding-top: 8px;
+	font-family: "宋体";
+	text-align: center
+}
+
+#linkPush A.linkPushHere {
+	background: url(../img/flash/pushHere.gif) no-repeat;
+	width: 92px;
+	padding-top: 8px;
+	font-family: "宋体";
+	text-align: center
+}
+
+.overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+<!--动画切换 -->
+
